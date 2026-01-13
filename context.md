@@ -108,6 +108,9 @@ Dit project gebruikt **alleen lokale git**.
 - Er wordt **niet gepusht**
 - Het toevoegen van een remote is **geen standaardstap**
 - Een remote toevoegen vereist een expliciete, bewuste beslissing van de gebruiker
+- Beslissingen worden uitsluitend vastgelegd in `decisions.md`.
+- Bestandsnamen zijn canoniek en mogen niet variëren.
+
 
 AI mag:
 - geen remotes voorstellen
