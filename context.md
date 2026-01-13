@@ -101,3 +101,15 @@ Dit systeem is ontworpen om:
 AI ondersteunt dit proces.  
 De gebruiker blijft verantwoordelijk.
 
+## Git & Remotes (harde regel)
+Dit project gebruikt **alleen lokale git**.
+
+- Er is **geen remote**
+- Er wordt **niet gepusht**
+- Het toevoegen van een remote is **geen standaardstap**
+- Een remote toevoegen vereist een expliciete, bewuste beslissing van de gebruiker
+
+AI mag:
+- geen remotes voorstellen
+- geen push-commando’s uitvoeren
+- geen publicatie- of hostingstappen suggereren
