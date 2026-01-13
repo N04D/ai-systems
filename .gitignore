@@ -1,0 +1,14 @@
+# OS / editor rommel
+.DS_Store
+Thumbs.db
+
+# Logs en tijdelijke output
+logs/*
+!logs/.keep
+
+# Secrets (nooit committen)
+.env
+.env.*
+
+# Eventuele lokale caches
+.cache/
