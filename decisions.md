@@ -192,3 +192,20 @@ Dutch (or other languages) are used exclusively for:
 English minimizes ambiguity and aligns with tooling, infrastructure, and AI model internals, while preserving Dutch for cultural and editorial content.
 
 Status: approved 
+
+## 2026-01-13 — odroid-nas bootstrap v1 completed
+
+Decision:
+- odroid-nas is configured as central infrastructure node (SSOT).
+- `/mnt/backup` is the authoritative shared storage.
+- NFS kernel server is used for LAN-wide file access (192.168.1.0/24).
+- PostgreSQL is installed and running locally on odroid-nas.
+- Verification scripts use `dpkg-query` instead of `dpkg -l`.
+
+Non-goals:
+- No filesystem changes or formatting.
+- No database schema defined yet.
+- No LAN exposure of PostgreSQL yet.
+
+Status: approved
+
