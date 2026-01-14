@@ -1,100 +1,100 @@
-# Project – Lokale AI Werk- en Systeemomgeving
+# Project — Local AI Work and System Environment
 
-## Doel
-Dit project is een **lokale, volledig controleerbare werkomgeving** waarin AI wordt gebruikt als uitvoerende en analyserende assistent binnen de terminal.  
-Alle data, context, beslissingen en voortgang worden **lokaal opgeslagen** en beheerd via bestanden en git.
+## Purpose
+This project is a **local, fully controllable working environment** in which AI is used as an executing and analytical assistant within the terminal.  
+All data, context, decisions, and progress are stored and managed **locally** via files and git.
 
-AI is hier geen gesprekspartner, maar een **hulpmiddel binnen een gestructureerd systeem**.
-
----
-
-## Kernprincipes
-
-1. **Alles is lokaal**
-   - Geen afhankelijkheid van browserchats
-   - Geen externe opslag van context
-   - Alle relevante informatie leeft in bestanden in deze map
-
-2. **Files zijn waarheid**
-   - Context, beslissingen en voortgang staan in markdown-bestanden
-   - Wat niet in files staat, bestaat niet
-   - Er wordt niets “onthouden” buiten dit project
-
-3. **AI is vervangbaar**
-   - Gemini, Claude, andere modellen of lokale LLM’s zijn uitwisselbaar
-   - Het systeem is niet afhankelijk van één leverancier
-   - De structuur blijft gelijk, ongeacht de AI
-
-4. **Sessies zijn eindig**
-   - Werk gebeurt in afgebakende sessies
-   - Elke sessie wordt expliciet afgesloten
-   - Afgesloten sessies worden samengevat en gearchiveerd
-
-5. **Beslissingen worden vastgelegd**
-   - Definitieve keuzes worden genoteerd in `decisions.md`
-   - Geen herhaling van oude discussies zonder reden
-   - Git commit history geldt als historisch logboek
+AI is not a conversational partner here, but a **tool within a structured system**.
 
 ---
 
-## Structuur van het project
+## Core Principles
+
+1. **Everything Is Local**
+   - No dependency on browser chats
+   - No external storage of context
+   - All relevant information lives in files within this directory
+
+2. **Files Are Truth**
+   - Context, decisions, and progress are stored in markdown files
+   - What is not written in files does not exist
+   - Nothing is “remembered” outside this project
+
+3. **AI Is Replaceable**
+   - Gemini, Claude, other models, or local LLMs are interchangeable
+   - The system does not depend on a single vendor
+   - The structure remains the same regardless of the AI used
+
+4. **Sessions Are Finite**
+   - Work happens in clearly bounded sessions
+   - Every session is explicitly closed
+   - Closed sessions are summarized and archived
+
+5. **Decisions Are Recorded**
+   - Final decisions are documented in `decisions.md`
+   - No repetition of past discussions without cause
+   - Git commit history serves as the historical log
+
+---
+
+## Project Structure
 
 - `context.md`  
-  Permanent collectief geheugen en werkwijze van dit project
+  Permanent collective memory and working rules of this project
 
 - `session.md`  
-  Actieve werksessie (tijdelijk)
+  Active working session (temporary)
 
 - `decisions.md`  
-  Vastgelegde besluiten
+  Recorded decisions
 
 - `sessions/`  
-  Archief van afgeronde sessies met datum
+  Archive of completed sessions, dated
 
 - `scripts/`  
-  Instructies en hulpmiddelen voor vaste handelingen (zoals sessie-afsluiting)
+  Instructions and tools for recurring actions (such as session closing)
 
 ---
 
-## Werkwijze
+## Workflow
 
-1. Start een sessie door:
-   - `context.md` te lezen
-   - het doel van de sessie te formuleren in `session.md`
+1. Start a session by:
+   - reading `context.md`
+   - defining the session goal in `session.md`
 
-2. Werk uitsluitend binnen deze projectmap
+2. Work exclusively within this project directory
 
-3. Gebruik AI om:
-   - plannen te maken
-   - taken uit te voeren
-   - bestanden bij te werken
-   - samen te vatten
+3. Use AI to:
+   - create plans
+   - execute tasks
+   - update files
+   - produce summaries
 
-4. Sluit elke sessie af:
-   - samenvatting maken
-   - context en beslissingen bijwerken indien nodig
-   - sessie archiveren in `sessions/`
-   - wijzigingen committen in git
-
----
-
-## Wat dit project niet is
-
-- Geen chat-archief
-- Geen experimentele speeltuin zonder structuur
-- Geen productie-omgeving
-- Geen onbeperkt autonoom AI-systeem
-
-Alles gebeurt **bewust, afgebakend en controleerbaar**.
+4. Close every session by:
+   - writing a summary
+   - updating context and decisions if needed
+   - archiving the session in `sessions/`
+   - committing changes to git
 
 ---
 
-## Einddoel
+## What This Project Is Not
 
-Een stabiele, rustige en overdraagbare manier van werken waarin:
-- cognitieve belasting wordt verlaagd
-- voortgang zichtbaar is
-- context behouden blijft
-- structuur sterker is dan motivatie
+- Not a chat archive
+- Not an unstructured experimental playground
+- Not a production environment
+- Not an unlimited autonomous AI system
 
-Dit systeem dient de gebruiker. Niet andersom.
+Everything happens **deliberately, within boundaries, and under control**.
+
+---
+
+## End Goal
+
+A stable, calm, and transferable way of working in which:
+- cognitive load is reduced
+- progress is visible
+- context is preserved
+- structure outweighs motivation
+
+This system serves the user. Not the other way around.

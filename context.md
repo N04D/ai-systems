@@ -1,65 +1,66 @@
-# Context – Werkwijze en Geheugen
+# Context — Workflow and Memory
 
-## Functie van dit bestand
-Dit document fungeert als het **collectieve geheugen en de werkinstructie** van dit project.  
-Elke AI die in deze projectmap werkt, moet dit bestand **altijd eerst lezen** en ernaar handelen.
+## Purpose of this File
+This document serves as the **collective memory and operating manual** of this project.  
+Any AI operating within this project directory must **always read this file first** and act accordingly.
 
-Wat hier staat, heeft voorrang op aannames, standaardgedrag of eerdere interacties.
-
----
-
-## Algemene uitgangspunten
-
-- Dit project is **lokaal**. Alle context leeft in bestanden.
-- Browserchats zijn niet leidend en niet bindend.
-- AI werkt hier als **uitvoerende assistent**, niet als eigenaar van het project.
-- De gebruiker bepaalt richting, doelen en grenzen.
+The contents of this file take precedence over assumptions, default behavior, or prior interactions.
 
 ---
 
-## Manier van werken
+## General Principles
 
-### Sessies
-- Werk gebeurt in **afgebakende sessies**.
-- Een sessie heeft:
-  - een duidelijk doel
-  - een begin
-  - een expliciet einde
-- De actieve sessie wordt beschreven in `session.md`.
-
-### Afsluiten
-- Elke sessie wordt afgesloten met:
-  - een samenvatting van wat is gedaan
-  - eventuele besluiten
-  - een korte vooruitblik
-- Afgesloten sessies worden opgeslagen in `sessions/YYYY-MM-DD.md`.
+- This project is **local**. All context lives in files.
+- Browser-based chats are not authoritative and not binding.
+- AI operates as an **executing assistant**, not as the owner of the project.
+- The user determines direction, goals, and boundaries.
 
 ---
 
-## Canonieke bestandsnamen (harde regel)
+## Way of Working
 
-De volgende bestanden hebben vaste, canonieke namen en mogen nooit:
-- hernoemd worden
-- vervangen worden
-- opgesplitst worden
-- samengevoegd worden
+### Sessions
+- Work is done in **clearly bounded sessions**.
+- Each session has:
+  - a clear goal
+  - a defined start
+  - an explicit end
+- The active session is described in `session.md`.
 
-Canoniek:
+### Closing a Session
+- Every session is closed with:
+  - a summary of what was done
+  - any decisions made
+  - a short look ahead
+- Closed sessions are stored in `sessions/YYYY-MM-DD.md`.
+
+---
+
+## Canonical Filenames (Hard Rule)
+
+The following files have fixed, canonical names and must never be:
+- renamed
+- replaced
+- split
+- merged
+
+Canonical:
 - README.md
 - context.md
 - session.md
 - decisions.md
 - sessions/YYYY-MM-DD.md
 
-AI mag:
-- inhoud aanpassen binnen deze bestanden (alleen met expliciete opdracht)
-AI mag niet:
-- nieuwe varianten aanmaken
-- beschrijvende bestandsnamen gebruiken als vervanging
+AI may:
+- modify content within these files **only with explicit instruction**
 
-### Canonieke namen (exact)
+AI may not:
+- create new variants
+- use descriptive filenames as replacements
 
-De volgende bestandsnamen en patronen zijn bindend:
+### Canonical Names (Exact)
+
+The following filenames and patterns are binding:
 
 - README.md  
 - context.md  
@@ -68,89 +69,93 @@ De volgende bestandsnamen en patronen zijn bindend:
 - backlog.md  
 - sessions/YYYY-MM-DD.md  
 
-Regels:
-- Bestandsnamen zijn **case-sensitive**
-- Beschrijvende alternatieven (zoals “mijn conclusie.md”) zijn verboden
-- Nieuwe varianten van bovenstaande bestanden zijn niet toegestaan
-- Afwijkingen gelden als fouten en moeten direct worden hersteld
-
-## Regels voor AI-gedrag
-
-AI moet zich houden aan de volgende regels:
-
-1. **Lees eerst**
-   - Lees altijd `README.md` en dit bestand voordat je iets doet.
-
-2. **Werk met bestanden**
-   - Schrijf context, voortgang en samenvattingen naar markdown-bestanden.
-   - Vermijd lange gesprekken zonder vastlegging.
-
-3. **Geen aannames**
-   - Ga niet uit van impliciete kennis.
-   - Wat niet in files staat, moet worden gevraagd of vastgelegd.
-
-4. **Wees expliciet**
-   - Benoem onzekerheden.
-   - Benoem keuzes en alternatieven.
-   - Leg definitieve keuzes vast in `decisions.md`.
-
-5. **Structuur boven snelheid**
-   - Snel werken is ondergeschikt aan helder werken.
-   - Liever langzaam en correct dan snel en rommelig.
-
-6. **Geen autonomie zonder opdracht**
-   - Voer geen acties uit zonder expliciete instructie.
-   - Doe geen destructieve handelingen zonder bevestiging.
+Rules:
+- Filenames are **case-sensitive**
+- Descriptive alternatives (such as “my conclusion.md”) are forbidden
+- New variants of the above files are not allowed
+- Deviations are considered errors and must be corrected immediately
 
 ---
 
-## Gebruik van tools
+## Rules for AI Behavior
 
-- AI mag:
-  - bestanden lezen en schrijven binnen deze projectmap
-  - scripts uitvoeren die expliciet zijn toegestaan
-  - voorstellen doen voor automatisering
+AI must adhere to the following rules:
 
-- AI mag niet:
-  - buiten deze map werken
-  - netwerkacties uitvoeren zonder expliciete opdracht
-  - systemen aanpassen die niet binnen scope vallen
+1. **Read First**
+   - Always read `README.md` and this file before taking any action.
+
+2. **Work with Files**
+   - Write context, progress, and summaries to markdown files.
+   - Avoid long conversations without persistent documentation.
+
+3. **No Assumptions**
+   - Do not rely on implicit knowledge.
+   - What is not written in files must be asked or documented.
+
+4. **Be Explicit**
+   - State uncertainties.
+   - State choices and alternatives.
+   - Record final decisions in `decisions.md`.
+
+5. **Structure Over Speed**
+   - Working fast is subordinate to working clearly.
+   - Slow and correct is preferred over fast and messy.
+
+6. **No Autonomy Without Instruction**
+   - Do not perform actions without explicit instruction.
+   - Do not perform destructive actions without confirmation.
 
 ---
 
-## Besluiten en wijzigingen
+## Use of Tools
 
-- Definitieve beslissingen worden vastgelegd in `decisions.md`.
-- Tijdelijke gedachten horen in `session.md`.
-- Na elke sessie wordt beoordeeld of `context.md` moet worden aangepast.
+AI may:
+- read and write files within this project directory
+- execute scripts that are explicitly permitted
+- propose automation ideas
 
-Dit bestand mag evolueren, maar alleen **bewust**.
+AI may not:
+- operate outside this directory
+- perform network actions without explicit instruction
+- modify systems that are outside the defined scope
 
 ---
 
-## Doel van dit systeem
+## Decisions and Changes
 
-Dit systeem is ontworpen om:
-- cognitieve belasting te verminderen
-- contextverlies te voorkomen
-- focus en continuïteit te waarborgen
-- structuur af te dwingen waar de mens dat niet altijd kan
+- Final decisions are recorded in `decisions.md`.
+- Temporary thoughts belong in `session.md`.
+- After each session, it must be evaluated whether `context.md` requires updates.
 
-AI ondersteunt dit proces.  
-De gebruiker blijft verantwoordelijk.
+This file may evolve, but only **deliberately**.
 
-## Git & Remotes (harde regel)
-Dit project gebruikt **alleen lokale git**.
+---
 
-- Er is **geen remote**
-- Er wordt **niet gepusht**
-- Het toevoegen van een remote is **geen standaardstap**
-- Een remote toevoegen vereist een expliciete, bewuste beslissing van de gebruiker
-- Beslissingen worden uitsluitend vastgelegd in `decisions.md`.
-- Bestandsnamen zijn canoniek en mogen niet variëren.
+## Purpose of This System
 
+This system is designed to:
+- reduce cognitive load
+- prevent context loss
+- maintain focus and continuity
+- enforce structure where humans cannot always do so
 
-AI mag:
-- geen remotes voorstellen
-- geen push-commando’s uitvoeren
-- geen publicatie- of hostingstappen suggereren
+AI supports this process.  
+The user remains responsible.
+
+---
+
+## Git & Remotes (Hard Rule)
+
+This project uses **local git only**.
+
+- There is **no remote**
+- No pushes are performed
+- Adding a remote is **not a default step**
+- Adding a remote requires an explicit, deliberate decision by the user
+- Decisions are recorded exclusively in `decisions.md`
+- Filenames are canonical and must not vary
+
+AI may not:
+- propose remotes
+- execute push commands
+- suggest publication or hosting steps
