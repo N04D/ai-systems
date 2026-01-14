@@ -209,3 +209,17 @@ Non-goals:
 
 Status: approved
 
+## 2026-01-14 — PostgreSQL LAN access enabled (odroid-nas)
+
+Decision:
+- PostgreSQL listens only on the fixed IP `192.168.1.10`.
+- LAN access is allowed for subnet `192.168.1.0/24` via `pg_hba.conf`.
+- Authentication method is `scram-sha-256`.
+- A minimal technical role `worker` is created for future nodes.
+
+Rationale:
+- odroid-nas has a static IP and acts as SSOT.
+- Limiting listen address reduces attack surface.
+- No databases or schemas are exposed at this stage.
+
+Status: approved
