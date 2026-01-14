@@ -32,7 +32,30 @@ The contents of this file take precedence over assumptions, default behavior, or
   - a summary of what was done
   - any decisions made
   - a short look ahead
-- Closed sessions are stored in `sessions/YYYY-MM-DD.md`.
+- Closed sessions are stored in `sessions/YYYY-MM-DD.md HH:MM`.
+
+**Start**: 2026-01-14 14:17  
+**End**: 2026-01-14 18:42  
+**Duration**: 4h 25m  
+
+## Summary (EN)
+...
+
+## Summary (NL)  *(optional)*
+...
+
+## Work Completed
+1. ...
+
+## Decisions
+- ...
+
+## Repo Status
+- ...
+
+## Next Steps
+- ...
+
 
 ---
 
