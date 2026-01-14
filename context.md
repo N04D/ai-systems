@@ -36,6 +36,27 @@ Wat hier staat, heeft voorrang op aannames, standaardgedrag of eerdere interacti
 
 ---
 
+## Canonieke bestandsnamen (harde regel)
+
+De volgende bestanden hebben vaste, canonieke namen en mogen nooit:
+- hernoemd worden
+- vervangen worden
+- opgesplitst worden
+- samengevoegd worden
+
+Canoniek:
+- README.md
+- context.md
+- session.md
+- decisions.md
+- sessions/YYYY-MM-DD.md
+
+AI mag:
+- inhoud aanpassen binnen deze bestanden (alleen met expliciete opdracht)
+AI mag niet:
+- nieuwe varianten aanmaken
+- beschrijvende bestandsnamen gebruiken als vervanging
+
 ## Regels voor AI-gedrag
 
 AI moet zich houden aan de volgende regels:
