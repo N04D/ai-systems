@@ -57,6 +57,23 @@ AI mag niet:
 - nieuwe varianten aanmaken
 - beschrijvende bestandsnamen gebruiken als vervanging
 
+### Canonieke namen (exact)
+
+De volgende bestandsnamen en patronen zijn bindend:
+
+- README.md  
+- context.md  
+- session.md  
+- decisions.md  
+- backlog.md  
+- sessions/YYYY-MM-DD.md  
+
+Regels:
+- Bestandsnamen zijn **case-sensitive**
+- Beschrijvende alternatieven (zoals “mijn conclusie.md”) zijn verboden
+- Nieuwe varianten van bovenstaande bestanden zijn niet toegestaan
+- Afwijkingen gelden als fouten en moeten direct worden hersteld
+
 ## Regels voor AI-gedrag
 
 AI moet zich houden aan de volgende regels:
