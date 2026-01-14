@@ -36,6 +36,25 @@ The contents of this file take precedence over assumptions, default behavior, or
 
 ---
 
+## Language policy (hard rule)
+
+System language is **English**.
+
+Scope:
+- All filenames, folder names, patterns, headers, rules, decisions, task instructions, scripts, commit messages, and logs are **English**.
+- Conversations and operational instructions default to **English**.
+
+Dutch is allowed only for:
+- Explicitly requested end-user summaries, marked as **Summary (NL)**.
+- Explicit translation outputs (source → Dutch), when requested.
+
+Rules:
+- Do not mix English and Dutch within the same section.
+- If a Dutch summary is needed, place it under a dedicated heading: **Summary (NL)**.
+- If unsure, default to English.
+
+---
+
 ## Canonical Filenames (Hard Rule)
 
 The following files have fixed, canonical names and must never be:

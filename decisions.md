@@ -223,3 +223,16 @@ Rationale:
 - No databases or schemas are exposed at this stage.
 
 Status: approved
+
+## 2026-01-14 — System language is English
+
+Decision:
+- The project’s system language is **English**.
+- Dutch is only used for explicitly requested outputs, primarily summaries labeled **Summary (NL)** or translation deliverables.
+
+Rationale:
+- Improves compatibility with terminal tools and VS Code/Copilot.
+- Prevents mixed-language drift and inconsistent agent behavior.
+
+Status: approved
+
