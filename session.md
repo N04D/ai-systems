@@ -1,43 +1,43 @@
-# Actieve Sessie
+# Active Session
 
-## Datum
-*(Vervang met de huidige datum)*
+## Date
+*(Replace with the current date)*
 
 ## Status
-Voorbereiding
+Preparation
 
 ---
 
-## Doel van deze sessie
-*(Beschrijf het doel hier)*
+## Session Objective
+*(Describe the objective here)*
 
 ---
 
-## Concrete taken
-- [ ] *(Taak 1)*
-- [ ] *(Taak 2)*
+## Concrete Tasks
+- [ ] *(Task 1)*
+- [ ] *(Task 2)*
 
 ---
 
-## Afspraken voor deze sessie
-*(Voeg afspraken toe als relevant)*
+## Session Agreements
+*(Add agreements if relevant)*
 
 ---
 
-## Open vragen / aandachtspunten
-*(Noteer vragen hier)*
+## Open Questions / Points of Attention
+*(Note questions here)*
 
 ---
 
-## Notities (tijdens de sessie)
-*(Wordt tijdens het werken aangevuld)*
+## Notes (during the session)
+*(To be filled during work)*
 
 ---
 
-## Afsluitinstructie
-Aan het einde van deze sessie:
-1. Maak een samenvatting van wat is gedaan
-2. Noteer eventuele besluiten in `decisions.md`
-3. Archiveer deze sessie naar `sessions/2026-01-13.md`
-4. Leeg of reset dit bestand voor de volgende sessie
-5. Commit alle wijzigingen in git met een duidelijke boodschap
+## Closing Instructions
+At the end of this session:
+1. Create a summary of what was done
+2. Record any decisions in `decisions.md`
+3. Archive this session to `sessions/YYYY-MM-DD_HHMM.md`
+4. Clear or reset this file for the next session
+5. Commit all changes to git with a clear message
