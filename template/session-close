@@ -1,0 +1,46 @@
+# Session Close — YYYY-MM-DD_HHMM
+
+**Start**: YYYY-MM-DD HH:MM  
+**End**: YYYY-MM-DD HH:MM  
+**Duration**: Xh Ym  
+
+---
+
+## Summary (EN)
+*(Concise summary of what was done and achieved in this session)*
+
+## Summary (NL) *(optional)*
+*(Alleen invullen indien expliciet gewenst)*
+
+---
+
+## Work Completed
+1. *(Concrete action/result 1)*
+2. *(Concrete action/result 2)*
+
+---
+
+## Decisions
+- *(Decision 1 — reference `decisions.md` if recorded)*
+- *(Decision 2)*
+
+---
+
+## Repo Status
+- Working tree: *(clean / dirty)*
+- Branch: *(e.g., master)*
+- Notes: *(anything relevant for continuity)*
+
+---
+
+## Next Steps
+- *(Next actionable step 1)*
+- *(Next actionable step 2)*
+
+---
+
+## Closure Checklist
+- [ ] Decisions recorded in `decisions.md`
+- [ ] Context updated if required
+- [ ] Session archived under correct timestamp
+- [ ] Changes committed to git
