@@ -30,6 +30,11 @@ This document defines the standard development workflow for the Cognitive Archiv
 *   Do not rebase or force-push.
 *   Rollback is always preferred over patching forward.
 *   History must remain readable.
+*   **Pushing to Remotes:** Pushing to a configured remote (e.g., GitHub) is permitted only under the following conditions:
+    *   It is explicitly commanded by a human developer.
+    *   The purpose is for code review or synchronization of the repository state.
+    *   It is never performed automatically.
+    *   The push consists of reviewable, committed work.
 
 ## 5. Error Handling and Stop Conditions
 
