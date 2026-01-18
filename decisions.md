@@ -1,12 +1,3 @@
-## 2026-01-18 — Git push as standard human workflow step
-
-Context:
-External review by Codex requires the remote repository to reflect the current state of the local repository.
-
-Decision:
-- `git push` to the configured remote is a mandatory procedural step executed by the human developer after commits, to enable external review.
-
-Explicit: Agents never push autonomously.
 
 ---
 
@@ -22,6 +13,9 @@ Rationale:
 - Maintain full local control over context, history, and artifacts.
 
 Status: approved
+
+
+
 
 Decision:
 - The project enforces **canonical filenames**: `README.md`, `context.md`, `session.md`, `decisions.md`, `sessions/YYYY-MM-DD.md`.
