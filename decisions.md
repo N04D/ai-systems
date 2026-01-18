@@ -241,3 +241,15 @@ Rationale:
 - Prevents mixed-language drift and inconsistent agent behavior.
 
 Status: approved
+
+## 2026-01-18 — Query discipline finalized
+
+Context:
+The Cognitive Archive requires strict, reproducible, and non-interpretive query handling.
+
+Decision:
+- Query formulation rules as defined in `query-discipline.md` are final and binding.
+- Underspecified or ambiguous queries must be refused.
+- The system must never infer intent, scope, or sources.
+
+Status: approved
