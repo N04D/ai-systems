@@ -1,3 +1,15 @@
+## 2026-01-18 — Git push as standard human workflow step
+
+Context:
+External review by Codex requires the remote repository to reflect the current state of the local repository.
+
+Decision:
+- `git push` to the configured remote is a mandatory procedural step executed by the human developer after commits, to enable external review.
+
+Explicit: Agents never push autonomously.
+
+---
+
 ## 2026-01-13 — Local git only, no remotes
 
 Decision:
@@ -235,4 +247,3 @@ Rationale:
 - Prevents mixed-language drift and inconsistent agent behavior.
 
 Status: approved
-
