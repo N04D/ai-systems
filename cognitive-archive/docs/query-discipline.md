@@ -1,8 +1,9 @@
 # Query Discipline for the Cognitive Archive
+_v0.3 (refinement for redundancy reduction)_
 
 ## 1. What Qualifies as a Valid Query
 
-A query is valid only if it is a structured, explicit request for information that can be fulfilled by referencing one or more authoritative sources within the system's memory layers. A valid query is a command, not a conversation. It must be self-contained, reproducible, and require no external context to be understood.
+A query is valid only if it is a structured, explicit request for information that can be fulfilled by referencing authoritative sources, as defined in `cognitive-archive/docs/memory-model.md`. A valid query is a command, not a conversation. It must be self-contained, reproducible, and require no external context to be understood, adhering to the principles in `cognitive-archive/docs/definitions.md`.
 
 ## 2. Required Components of a Query
 
@@ -43,7 +44,9 @@ The refusal must state which component of the query is missing or invalid (Scope
 
 ## 6. What the System Must Never Infer or Assume
 
-The system is forbidden from making any inferences or assumptions when interpreting a query. It must never:
+The system is forbidden from making any inferences or assumptions when interpreting a query, in accordance with the strict prohibitions against normative learning and inference defined in `cognitive-archive/docs/definitions.md`.
+
+Specifically, when processing a query, it must never:
 
 *   **Assume User Intent:** Do not attempt to guess what the user "really meant."
 *   **Infer Missing Parameters:** Do not fill in missing `Scope` or `Source` details based on conversational context or previous queries. Each query must be atomic and complete.
