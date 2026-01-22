@@ -32,3 +32,13 @@ The infra agent MUST NOT:
 - SSH access is explicit
 - No implicit trust between nodes
 - Inventory defines the cluster boundary
+
+## Control Node Handling
+
+If a node has access_mode: local, the infra agent MUST:
+- Execute commands locally
+- NOT use SSH
+- Treat the node as the execution origin
+
+The infra agent MUST NOT attempt to SSH into the control node itself.
+

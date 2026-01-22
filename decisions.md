@@ -253,3 +253,24 @@ Decision:
 - The system must never infer intent, scope, or sources.
 
 Status: approved
+
+## 2026-01-18 — Query discipline finalized
+
+## Context
+The Cognitive Archive requires strict, reproducible, and non-interpretive query handling.  
+Ambiguity at the query layer leads to silent inference, scope drift, and non-auditable results.
+
+## Decision
+- Query formulation rules as defined in `query-discipline.md` are **final and binding**.
+- Underspecified or ambiguous queries **must be refused**, not repaired.
+- The system **must never infer** intent, scope, missing constraints, or sources.
+- Silence or refusal is preferred over “helpful guessing”.
+
+## Implications
+- No auto-expansion of queries.
+- No fallback heuristics.
+- No inferred intent.
+- No source guessing.
+
+## Status
+Approved. Non-negotiable.
