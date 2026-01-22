@@ -1,0 +1,18 @@
+nodes:
+  - name: rpi5-ml
+    role: control
+    host: 192.168.1.47
+    user: infra
+    base_path: /home/infra/ai-systems
+
+  - name: odroid-nas
+    role: data
+    host: 192.168.1.10
+    user: infra
+    base_path: /home/infra/ai-systems
+
+  - name: sentinel-1
+    role: watchdog
+    host: 192.168.1.92
+    user: infra
+    base_path: /home/infra/ai-systems
