@@ -274,3 +274,18 @@ Ambiguity at the query layer leads to silent inference, scope drift, and non-aud
 
 ## Status
 Approved. Non-negotiable.
+
+## 2026-01-22 — Node enrollment is explicit, not automatic
+
+## Decision
+- Network discovery does NOT imply permission to enroll.
+- Nodes must be explicitly added to `INVENTORY.yaml` before any enrollment action.
+- Infrastructure agents MUST NOT attempt authentication on undisclosed hosts.
+- Discovery may be used for visibility only, not action.
+
+## Rationale
+Discovery without explicit intent creates worm-like behavior and violates the
+principle of controlled enrollment.
+
+## Status
+Approved.
